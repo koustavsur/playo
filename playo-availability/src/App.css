@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center ;
+}
+
+.Header {
+  font-size: 25px;
+  font-weight: 800;
+  padding-bottom: 2%;
+  color:yellowgreen;
+}
+
+.Datepicker-wrapper {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 250px;
+}
+
+.Datepicker {
+  height: 25px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.Button {
+  margin: 3%;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  background-color:dodgerblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Display-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  margin-top: 5px;
+}
+
+.Display-header {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 2%;
+  color:yellowgreen;
+}
+
+.Court-header {
+  display: flex;
+  align-items: center ;
+  margin: 4%;
+}
+
+.Court-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  margin-top: 5px;
+}
+
+.Court-Name {
+  font-size: 20px;
+  font-weight: 450;
+  padding-bottom: 2%;
+  color:yellowgreen;
+}
+
+.Court-column {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Revenue {
+  margin: 3%;
+  font-size: 22px;
+  font-weight: 450;
+  color:yellowgreen;
+}
+
+.Revenue-amount {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
